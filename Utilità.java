@@ -19,6 +19,13 @@ public class Utilità{
      * la dimensione non deve essere più grande della taglia;
      */
     
+     /**
+     * RI: -canale non deve essere null;
+     *     -pacchetti non deve essere null e non deve contenere valori null;
+     *     -sequenza non deve essere < -1
+     * AF: -sequenza == -1 => il Sorgente non ha ancora codificato nessun messaggio
+     */
+
     // RI: (vuoto)
     // AF: l'i-esimo valore di verità del BoolVect è vero se e solo se l'i-esimo bit di bits è 1.
 
